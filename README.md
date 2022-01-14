@@ -9,5 +9,5 @@ The configuration is all handled using [dnsmasq.conf](https://raw.githubusercont
 The command below runs dnsmasq on port 53 udp and tcp and sets the hostname and the container name to dnsmasq and load the configuration as a volume to /etc/dnsmasq.conf.
 
 ```
-docker run -d --name dnsmasq --hostname dnsmasq -p 53:53/udp -p 53:53/tcp -v $(pwd)/dnsmasq.conf:/etc/dnsmasq.conf --restart always hashimi/dnsmasq
+docker run -d --name dnsmasq --hostname dnsmasq -p 53:53/udp -p 53:53/tcp -v $(pwd)/dnsmasq.conf:/etc/dnsmasq.conf --restart always hashimi/dnsmasq:1.0
 ```
