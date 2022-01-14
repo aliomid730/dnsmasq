@@ -1,4 +1,4 @@
-[![Docker Image CI](https://github.com/aliomid730/cacti/actions/workflows/docker-image.yml/badge.svg)](https://github.com/aliomid730/cacti/actions/workflows/docker-image.yml)
+[![Docker Image CI](https://github.com/aliomid730/cacti/actions/workflows/docker-image.yml/badge.svg)](https://github.com/aliomid730/dnsmasq/actions/workflows/docker-image.yml)
 
 # dnsmasq
 dnsmasq is a lightweight DNS server. It is intended to provide DNS service to a LAN.
